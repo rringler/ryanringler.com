@@ -6,6 +6,7 @@
 /*----------- GENERAL ------------*/
 body {
 	background: url("background.png") 50% 0% no-repeat #12212D;
+	background-attachment: fixed;
 	color: white;
 	font-family: "Helvetica Neue", Verdana, Geneva, Arial, sans-serif;
 	font-size: smaller;
@@ -83,6 +84,10 @@ section#experience {
 	}
 	li {
 		text-align: justify;
+		margin-left: 12px;
+	}
+
+	.position-highlights p {
 		margin-left: 12px;
 	}
 }
