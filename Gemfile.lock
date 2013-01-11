@@ -32,8 +32,6 @@ GEM
     annotate (2.5.0)
       rake
     arel (3.0.2)
-    bootstrap-sass (2.2.2.0)
-      sass (~> 3.2)
     builder (3.0.4)
     capybara (2.0.2)
       mime-types (>= 1.16)
@@ -145,7 +143,6 @@ PLATFORMS
 
 DEPENDENCIES
   annotate
-  bootstrap-sass
   capybara
   factory_girl_rails
   jquery-rails

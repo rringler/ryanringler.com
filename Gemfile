@@ -13,7 +13,7 @@ end
 # in production environments by default.
 group :assets do
   gem 'sass-rails'
-  gem 'bootstrap-sass'
+  #gem 'bootstrap-sass-rails'
   #gem 'coffee-rails'
   gem 'uglifier'
 end
