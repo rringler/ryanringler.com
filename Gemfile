@@ -14,7 +14,7 @@ end
 group :assets do
   gem 'sass-rails'
   #gem 'bootstrap-sass-rails'
-  #gem 'coffee-rails'
+  gem 'coffee-rails'
   gem 'uglifier'
 end
 
