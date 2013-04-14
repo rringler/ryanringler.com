@@ -1,0 +1,138 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+*/
+
+body {
+
+	#main {
+		padding-top: 3.125em;
+	}
+
+	div.navbar img {
+		padding-right: 8px;
+	}
+}
+
+p#contact-info {
+	position: relative;
+	top: 5px;
+	text-align: right;
+}
+
+section {
+	h2 {
+		font-size: 30px;
+
+		small {
+			padding-left: 0.5em;
+		}
+	}
+
+	h3 {
+		font-size: 22px;
+
+		small {
+			padding-left: 0.5em;
+			font-size: 16px;
+		}
+	}
+
+	p.date {
+		position: relative;
+		top: 22px;
+		text-align: right;
+	}
+
+	div.page-header {
+		padding-top: 14px;
+	}
+}
+
+section#summary {
+	p {
+		font-size: 16px;
+	}
+
+	p:first-of-type {
+		padding-bottom: 8px;
+	}
+}
+
+section#education {
+	h3, p#coursework {
+		padding-left: 20px;
+	}
+
+	p#coursework {
+		font-size: 16px;
+	}
+
+	p.date {
+		font-size: 16px;
+		top: 12px;
+	}
+
+	em {
+		font-style: normal;
+		font-weight: bold;
+	}
+
+	div.degree h3:first-of-type {
+		margin-bottom: 2px;
+	}
+
+	div.degree h3:last-of-type {
+		margin-top: 2px;
+	}
+}
+
+section#experience {
+	h3 {
+		padding-left: 20px;
+	}
+
+	div.highlights {
+		padding-left: 40px;
+		font-size: 16px;
+	}
+
+	p.employer-date {
+		font-size: 18px;
+		top: 24px;
+	}
+
+	p.position-date {
+		font-size: 16px;
+		color: rgb(122, 130, 136);
+	}
+}
+
+section#skills {
+	p {
+		font-size: 16px;
+	}
+
+	p.category {
+			text-align: right;
+			padding-right: 10px;
+	}
+
+	img {
+		position: relative;
+		top: -1px;
+	}
+
+	span#ruby {
+		color: #981A21;
+	}
+}
