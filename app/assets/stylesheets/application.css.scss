@@ -13,14 +13,8 @@
 */
 
 body {
-
-	#main {
-		padding-top: 3.125em;
-	}
-
-	div.navbar img {
-		padding-right: 8px;
-	}
+	#main {	padding-top: 3.125em;	}
+	div.navbar img { padding-right: 8px; }
 }
 
 p#contact-info {
@@ -30,6 +24,8 @@ p#contact-info {
 }
 
 section {
+	div.page-header {	padding-top: 14px; }
+
 	h2 {
 		font-size: 30px;
 
@@ -52,30 +48,21 @@ section {
 		top: 22px;
 		text-align: right;
 	}
-
-	div.page-header {
-		padding-top: 14px;
-	}
 }
 
 section#summary {
+	p:first-of-type {	padding-bottom: 8px; }
 	p {
+		padding-left: 20px;
 		font-size: 16px;
-	}
-
-	p:first-of-type {
-		padding-bottom: 8px;
 	}
 }
 
 section#education {
-	h3, p#coursework {
-		padding-left: 20px;
-	}
-
-	p#coursework {
-		font-size: 16px;
-	}
+	h3, p#coursework { padding-left: 20px; }
+	p#coursework { font-size: 16px; }
+	div.degree h3:first-of-type {	margin-bottom: 2px;	}
+	div.degree h3:last-of-type { margin-top: 2px; }
 
 	p.date {
 		font-size: 16px;
@@ -86,20 +73,10 @@ section#education {
 		font-style: normal;
 		font-weight: bold;
 	}
-
-	div.degree h3:first-of-type {
-		margin-bottom: 2px;
-	}
-
-	div.degree h3:last-of-type {
-		margin-top: 2px;
-	}
 }
 
 section#experience {
-	h3 {
-		padding-left: 20px;
-	}
+	h3 { padding-left: 20px; }
 
 	div.highlights {
 		padding-left: 40px;
@@ -115,24 +92,32 @@ section#experience {
 		font-size: 16px;
 		color: rgb(122, 130, 136);
 	}
+
+	em {
+		font-style: normal;
+		color: #fff;
+	}
 }
 
 section#skills {
+	span#ruby {	color: #981A21;	}
+
 	p {
 		font-size: 16px;
+
+		em {
+			font-style: normal;
+			color: #fff;
+		}
 	}
 
 	p.category {
-			text-align: right;
-			padding-right: 10px;
+		text-align: right;
+		padding-right: 10px;
 	}
 
 	img {
 		position: relative;
 		top: -1px;
-	}
-
-	span#ruby {
-		color: #981A21;
 	}
 }
