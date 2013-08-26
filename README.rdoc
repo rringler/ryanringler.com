@@ -1,3 +1,4 @@
 == Ryanringler.com
 
-Simple static page for ryanringler.com.  Making this a rails app is total overkill, but Heroku is free, and who knows what I'll add in the future.
+Simple static page for ryanringler.com.  Making this a rails app is total 
+overkill, but Heroku is free, and who knows what I'll add in the future.
