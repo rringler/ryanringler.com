@@ -13,116 +13,119 @@
 */
 
 body {
-	#main {	padding-top: 3.125em;	}
-	div.navbar img { padding-right: 8px; }
+  #main { padding-top: 3.125em; }
+  div.navbar {
+    h5 { padding-right: 18px; }
+    img { padding-right: 8px; }
+  }
 }
 
 p#contact-info {
-	position: relative;
-	top: 5px;
-	text-align: right;
+  position: relative;
+  top: 5px;
+  text-align: right;
 }
 
 section {
-	div.page-header {	padding-top: 14px; }
+  div.page-header { padding-top: 14px; }
 
-	h2 {
-		font-size: 30px;
+  h2 {
+    font-size: 30px;
 
-		small {
-			padding-left: 0.5em;
-		}
-	}
+    small {
+      padding-left: 0.5em;
+    }
+  }
 
-	h3 {
-		font-size: 22px;
+  h3 {
+    font-size: 22px;
 
-		small {
-			padding-left: 0.5em;
-			font-size: 16px;
-		}
-	}
+    small {
+      padding-left: 0.5em;
+      font-size: 16px;
+    }
+  }
 
-	p.date {
-		position: relative;
-		top: 22px;
-		text-align: right;
-	}
+  p.date {
+    position: relative;
+    top: 22px;
+    text-align: right;
+  }
 }
 
 section#summary {
-	p:first-of-type {	padding-bottom: 8px; }
-	p {
-		padding-left: 20px;
-		font-size: 16px;
-	}
+  p:first-of-type { padding-bottom: 8px; }
+  p {
+    padding-left: 20px;
+    font-size: 16px;
+  }
 }
 
 section#education {
-	h3, p#coursework { padding-left: 20px; }
-	p#coursework { font-size: 16px; }
-	div.degree h3:first-of-type {	margin-bottom: 2px;	}
-	div.degree h3:last-of-type { margin-top: 2px; }
+  h3, p#coursework { padding-left: 20px; }
+  p#coursework { font-size: 16px; }
+  div.degree h3:first-of-type { margin-bottom: 2px; }
+  div.degree h3:last-of-type { margin-top: 2px; }
 
-	p.date {
-		font-size: 16px;
-		top: 12px;
-	}
+  p.date {
+    font-size: 16px;
+    top: 12px;
+  }
 
-	em {
-		font-style: normal;
-		font-weight: bold;
-	}
+  em {
+    font-style: normal;
+    font-weight: bold;
+  }
 }
 
 section#experience {
-	h3 { padding-left: 20px; }
+  h3 { padding-left: 20px; }
 
-	div.highlights {
-		padding-left: 40px;
-		font-size: 16px;
+  div.highlights {
+    padding-left: 40px;
+    font-size: 16px;
 
-		p {	
-			padding-top: 9px;
-			padding-bottom: 9px;
-		}
-	}
+    p {
+      padding-top: 9px;
+      padding-bottom: 9px;
+    }
+  }
 
-	p.employer-date {
-		font-size: 18px;
-		top: 24px;
-	}
+  p.employer-date {
+    font-size: 18px;
+    top: 24px;
+  }
 
-	p.position-date {
-		font-size: 16px;
-		color: rgb(122, 130, 136);
-	}
+  p.position-date {
+    font-size: 16px;
+    color: rgb(122, 130, 136);
+  }
 
-	em {
-		font-style: normal;
-		color: #fff;
-	}
+  em {
+    font-style: normal;
+    color: #fff;
+  }
 }
 
 section#skills {
-	span#ruby {	color: #981A21;	}
+  span#ruby { color: #981A21; }
 
-	p {
-		font-size: 16px;
+  p {
+    font-size: 16px;
 
-		em {
-			font-style: normal;
-			color: #fff;
-		}
-	}
+    em {
+      font-style: normal;
+      color: #fff;
+    }
+  }
 
-	p.category {
-		text-align: right;
-		padding-right: 10px;
-	}
+  p.category {
+    text-align: right;
+    padding-right: 10px;
+  }
 
-	img {
-		position: relative;
-		top: -1px;
-	}
+  img {
+    position: relative;
+    top: -1px;
+  }
 }
