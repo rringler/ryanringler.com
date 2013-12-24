@@ -12,120 +12,46 @@
  *= require_tree .
 */
 
-body {
-  #main { padding-top: 3.125em; }
-  div.navbar {
-    h5 { padding-right: 18px; }
-    img { padding-right: 8px; }
-  }
-}
+@import "bootswatch/cerulean/variables";
+@import "bootstrap";
+@import "bootswatch/cerulean/bootswatch";
 
-p#contact-info {
-  position: relative;
-  top: 5px;
-  text-align: right;
-}
+body { padding-top: 70px; }
 
 section {
-  div.page-header { padding-top: 14px; }
+  padding-top: 20px;
 
-  h2 {
-    font-size: 30px;
-
-    small {
-      padding-left: 0.5em;
+  .section-header {
+    .circle {
+      background: rgba(45,117,166,1.0);
+      text-align: center;
+      border-radius: 100%;
+      margin: 8px 0 0 15px;
+      width: 56px;
+      height: 56px;
+      box-shadow: 1px 1px 2px 0px #E0E0E0;
     }
+    img { margin: 10px 0 0 -5px; }
   }
 
-  h3 {
-    font-size: 22px;
+  &#education {
+    .degree, .key-coursework { padding-left: 20px; }
+  }
 
-    small {
-      padding-left: 0.5em;
-      font-size: 16px;
+  &#experience {
+    .position, .position-highlights { padding-left: 20px; }
+  }
+
+  &#skills {
+    .col-xs-3 { padding-right: 30px; }
+    .col-xs-9 div.row { margin-left: 0px; }
+    span#ruby {
+      color: #981A21;
+
+      img {
+        position: relative;
+        top: -2px;
+      }
     }
-  }
-
-  p.date {
-    position: relative;
-    top: 22px;
-    text-align: right;
-  }
-}
-
-section#summary {
-  p:first-of-type { padding-bottom: 8px; }
-  p {
-    padding-left: 20px;
-    font-size: 16px;
-  }
-}
-
-section#education {
-  h3, p#coursework { padding-left: 20px; }
-  p#coursework { font-size: 16px; }
-  div.degree h3:first-of-type { margin-bottom: 2px; }
-  div.degree h3:last-of-type { margin-top: 2px; }
-
-  p.date {
-    font-size: 16px;
-    top: 12px;
-  }
-
-  em {
-    font-style: normal;
-    font-weight: bold;
-  }
-}
-
-section#experience {
-  h3 { padding-left: 20px; }
-
-  div.highlights {
-    padding-left: 40px;
-    font-size: 16px;
-
-    p {
-      padding-top: 9px;
-      padding-bottom: 9px;
-    }
-  }
-
-  p.employer-date {
-    font-size: 18px;
-    top: 24px;
-  }
-
-  p.position-date {
-    font-size: 16px;
-    color: rgb(122, 130, 136);
-  }
-
-  em {
-    font-style: normal;
-    color: #fff;
-  }
-}
-
-section#skills {
-  span#ruby { color: #981A21; }
-
-  p {
-    font-size: 16px;
-
-    em {
-      font-style: normal;
-      color: #fff;
-    }
-  }
-
-  p.category {
-    text-align: right;
-    padding-right: 10px;
-  }
-
-  img {
-    position: relative;
-    top: -1px;
   }
 }

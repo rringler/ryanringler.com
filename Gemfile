@@ -1,21 +1,18 @@
 source 'https://rubygems.org'
+ruby '2.0.0'
 
-gem 'rails'
+gem 'rails', '4.0.0'
 gem 'jquery-rails'
+gem 'coffee-rails'
+gem 'sass-rails'
+gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
+gem 'bootswatch-rails', github: 'log0ymxm/bootswatch-rails'
+gem 'uglifier', '>=1.3.0'
+gem 'turbolinks'
 
 group :development, :test do
   gem 'sqlite3'
   gem 'rspec-rails'
-  gem 'annotate'
-end
-
-# Gems used only for assets and not required
-# in production environments by default.
-group :assets do
-  gem 'sass-rails'
-  #gem 'bootstrap-sass-rails'
-  gem 'coffee-rails'
-  gem 'uglifier'
 end
 
 group :test do
@@ -25,4 +22,5 @@ end
 
 group :production do
   gem 'pg'
+  gem 'rails_12factor'
 end
