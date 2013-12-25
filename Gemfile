@@ -9,6 +9,9 @@ gem 'bootstrap-sass', github: 'thomas-mcdonald/bootstrap-sass'
 gem 'bootswatch-rails', github: 'log0ymxm/bootswatch-rails'
 gem 'uglifier', '>=1.3.0'
 gem 'turbolinks'
+gem 'foreman'
+gem 'unicorn'
+gem 'rack-timeout'
 
 group :development, :test do
   gem 'sqlite3'
