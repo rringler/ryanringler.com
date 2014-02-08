@@ -8,6 +8,7 @@
  * You're free to add application-wide styles to this file and they'll appear at the top of the
  * compiled file, but it's generally better to create a new file per style scope.
  *
+ *= require font-awesome
  *= require_self
  *= require_tree .
 */
@@ -17,6 +18,15 @@
 @import "bootswatch/cerulean/bootswatch";
 
 body { padding-top: 70px; }
+
+nav {
+  ul.dropdown-menu {
+    a {
+      color: rgb(45,117,166);
+      i { padding: 0 10px 0 0; }
+    }
+  }
+}
 
 section {
   padding-top: 20px;
